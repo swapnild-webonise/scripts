@@ -1,0 +1,20 @@
+---
+#- name: Install pkg
+#  apt: name=vim state=installed
+
+#- name: Check glibc version
+#  shell: ldd --version | grep ldd | awk {'print $2" "$3""$4 " "$5'}
+#  register: ldd
+#- debug: var=ldd.stdout_lines
+
+- name: install Db module 
+  action: apt pkg=python-mysqldb state=installed
+
+- name: Take db dump
+  mysql_db: name={{ db_name }} login_user=root login_password={{ db_password }} state=dump target=/tmp/{{ db_name }}.sql
+
+- name: Create tar.gz
+  shell: tar -czf /tmp/{{ db_name }}.tar.gz /tmp/{{ db_name }}.sql --remove-files
+
+- name: Download to local machine
+  fetch: src=/tmp/{{db_name }}.tar.gz dest=/home/webonise/royal/ flat=yes

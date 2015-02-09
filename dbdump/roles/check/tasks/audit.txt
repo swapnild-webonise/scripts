@@ -1,0 +1,19 @@
+
+Scalpel version 1.60 audit file
+Started at Fri Feb  6 16:04:44 2015
+Command line:
+scalpel /home/webonise/ -o /home/webonise/scripts/dbdump/roles/check/tasks/ 
+
+Output directory: /home/webonise/scripts/dbdump/roles/check/tasks
+Configuration file: /etc/scalpel/scalpel.conf
+
+Opening target "/home/webonise"
+
+The following files were carved:
+File		  Start			Chop		Length		Extracted From
+ERROR: The configuration file didn't specify any file types to carve.
+(If you're using the default configuration file, you'll have to
+uncomment some of the file types.)
+
+
+Completed at Fri Feb  6 16:04:44 2015

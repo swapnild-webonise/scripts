@@ -1,0 +1,78 @@
+------------------------------IP Details-----------------------------------------------------
+
+IP addr:10.10.1.168 
+
+------------------------------Os Details----------------------------------------------------
+Distributor ID:	Ubuntu
+Description:	Ubuntu 12.04.2 LTS
+Codename:	precise
+
+CPU cores : 32
+
+CPU cores Available : 24
+
+------------------------------RAM Details---------------------------------------------------
+Total : 256
+Used :  227
+Free : 28
+
+------------------------------Load Average Details------------------------------------------
+
+Load Average of last 1,5 and 15 minutes : 
+ 0.00, 0.00, 0.00
+
+------------------------------Disk Utilization Details--------------------------------------
+
+Disk Utilization (in GB) :
+
+Total : /dev/simfs  4 GB
+
+Used : /dev/simfs  2.60325 GB
+
+Available : /dev/simfs  1.39675 GB
+
+------------------------------Process/Daemons Details---------------------------------------
+
+Running Daemons/processes : 
+Port number : Process ID / Process name
+25:594/sendmail
+3306:9966/mysqld
+587:594/sendmail
+80:14378/apache2
+40278:14844/current
+22:373/sshd
+
+------------------------------Port Details--------------------------------------------------
+
+
+Open Ports 
+
+25
+3306
+587
+80
+40278
+22
+:22
+
+------------------------------Cron job Details----------------------------------------------
+Cron jobs for user root
+  * 8   *   *   1   /root/script/server_sanity_check.sh &> /var/log/server_sanity_check.log
+Cron jobs for user deploy
+no crontab for deploy
+
+------------------------------Database Details----------------------------------------------
+
+
+Mysql Connection Ok
+
+------------------------------Virtual Host Details-----------------------------------------
+
+Virtual Hosts running on apache2
+         default server swapnil.weboniselab.com (/etc/apache2/sites-enabled/000-default:1)
+         port 80 namevhost swapnil.weboniselab.com (/etc/apache2/sites-enabled/000-default:1)
+         port 80 namevhost app.choc.com (/etc/apache2/sites-enabled/app.choc.com.conf:1)
+         port 80 namevhost testcake.com (/etc/apache2/sites-enabled/testcake.com.conf:1)
+         port 80 namevhost vinny40.com (/etc/apache2/sites-enabled/vinny40.com.conf:1)
+Syntax OK
+

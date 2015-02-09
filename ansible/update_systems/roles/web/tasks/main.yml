@@ -1,0 +1,8 @@
+---
+#- name: Install pkg
+#  apt: name=vim state=installed
+
+- name: Check glibc version
+  shell: ldd --version | grep ldd | awk {'print $2" "$3""$4 " "$5'}
+  register: ldd
+- debug: var=ldd.stdout_lines

@@ -1,0 +1,8 @@
+---
+- name: configure webservers nodes
+  hosts: webservers
+  remote_user: swapnil
+  sudo: yes
+
+  roles:
+    - check
