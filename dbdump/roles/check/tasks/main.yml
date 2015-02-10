@@ -1,9 +1,9 @@
 ---
 - name: Check db on test-royalpark.weboapps.com
-  shell: cat /var/www/test-royalpark.weboapps.com/shared/config/wp-config.php| grep 'DB_NAME\|DB_USER\|DB_PASSWORD'
+  shell: cat /var/www/{{ app }}/shared/config/wp-config.php| grep 'DB_NAME\|DB_USER\|DB_PASSWORD'
   register: db
 - debug: var=db.stdout_lines
 - name: Check db on test-royalgulf.weboapps.com
-  shell: cat /var/www/test-royalgulf.weboapps.com/shared/config/wp-config.php| grep 'DB_NAME\|DB_USER\|DB_PASSWORD'
+  shell: cat /var/www/{{ app }}/shared/config/wp-config.php| grep 'DB_NAME\|DB_USER\|DB_PASSWORD'
   register: db
 - debug: var=db.stdout_lines
