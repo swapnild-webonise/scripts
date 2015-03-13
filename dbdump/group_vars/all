@@ -1,4 +1,3 @@
-#app: test-royalgulf.weboapps.com
-app: www.microsave.net
-db_name: royalpark_test_new
+app: demo-royalgulf.weboapps.com
+db_name: royalgulf_demo_29012015 
 db_password: royalparkdata
