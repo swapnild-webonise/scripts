@@ -1,2 +1,4 @@
 [webservers]
-54.69.221.188
+#54.69.221.188  # royal test-demo
+#54.68.88.190  # royalpark live
+52.10.186.148 # royalgulf live

@@ -1,3 +1,12 @@
-app: demo-royalgulf.weboapps.com
-db_name: royalgulf_demo_29012015 
-db_password: royalparkdata
+app: www.royalgulf.info
+#app: demo-royalgulf.weboapps.com
+#app: demo-royalpark.weboapps.com
+#app: www.royalpark.net
+
+#db_name:  royalpark_production
+db_name: royalgulf_production
+#db_name: royalgulf_demo_29012015
+
+#db_password: royalparkdata #demo
+#db_password: RoyalparkData #rp live
+db_password: aqswdefr #rg live
